@@ -1,0 +1,129 @@
+<!-- new_view_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <!-- Handyman Name -->
+    <TextView
+        android:id="@+id/textViewHandymanNameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handyman Name:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextHandymanName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Handyman Name"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Handyman Email -->
+    <TextView
+        android:id="@+id/textViewHandymanEmailLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handyman Email:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextHandymanEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Handyman Email"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Handyman Contact -->
+    <TextView
+        android:id="@+id/textViewHandymanContactLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handyman Contact:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextHandymanContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Handyman Contact"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Handyman Rate -->
+    <TextView
+        android:id="@+id/textViewHandymanRateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handyman Rate:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextHandymanRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Handyman Rate"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Handyman Service Spinner -->
+    <TextView
+        android:id="@+id/textViewHandymanServiceLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handyman Service:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <ExpandableListView
+        android:id="@+id/expandableListViewHandymanService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Rating of Stars -->
+    <TextView
+        android:id="@+id/textViewRatingLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="1"
+        android:layout_marginBottom="8dp"
+        android:progressTint="@android:color/holo_orange_dark"
+
+        />
+
+    <!-- Button to book -->
+    <Button
+        android:id="@+id/buttonBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
